@@ -1,0 +1,46 @@
+.navbar-text {
+  color: blanchedalmond;
+  text-align: right;
+  padding-left: 10px;
+  position: relative;
+}
+.text-inside {
+  font-family: "Lato" , sans-serif;
+  color: rgb(201, 241, 241);
+  font-size: 100%;
+  text-align: center;
+  float: right;
+}
+
+.center {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.tagline-1 {
+  text-align: center;
+  font-family: "Lato" , sans-serif;
+}
+.main-image {
+  position: relative;
+  width: 100%;
+}
+.secondary-image {
+  background-image: image(./assets/images/bracelet-bracelets-guy.jpg);
+}
+
+.footer-container {
+  position: relative;
+  
+}
+.footer-container a {
+  font-family: Lato, sans-serif;
+  font-size: small;
+  color: blanchedalmond;
+}
+.footer-container i {
+  font-size: xx-large;
+  color: rgb(29, 29, 48);
+}
