@@ -1,9 +1,1 @@
-# Code Institute
-
-Welcome Fabi,
-
-We have preinstalled all of the tools you need to get started.
-
-
-
-Happy coding!
+This is a sample sample sample. will work later on this
