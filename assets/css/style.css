@@ -12,12 +12,14 @@
   position: absolute;
 }
 
+
 .tagline-1 {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   padding-top: 10%;
 }
+
 
 .display-4 {
   font-family: "Lato", sans-serif;
@@ -55,10 +57,11 @@
   list-style-type: none;
   text-align: left;
   padding: 0;
-  margin: 0;
   list-style: none;
   font-size: 0.7rem;
+  left: -2em; 
 }
+
 footer {
   background-color: #2f2f33;
   color: #fafafa;
