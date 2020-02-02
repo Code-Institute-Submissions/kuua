@@ -1,8 +1,6 @@
-
-
-.pos-f-t li a{ 
-font-family: "Lato", sans-serif;
-color: #fafafa;
+.pos-f-t li a {
+  font-family: "Lato", sans-serif;
+  color: #fafafa;
 }
 
 /* ---------------logo */
@@ -22,42 +20,56 @@ color: #fafafa;
 }
 
 .display-4 {
-  font-family: "Lato" , sans-serif;
+  font-family: "Lato", sans-serif;
   color: #2f2f33;
 }
 .jumbotron p {
-  font-family: "Lato" , sans-serif;
+  font-family: "Lato", sans-serif;
   color: #2f2f33;
 }
 .vumc_link {
   color: #1f2c69;
   font-weight: bolder;
 }
-.vumc_link1 {
-  color: #9195a8;
-  font-weight: bolder;
-}
 
 /* -------------------------Footer */
+.footer_titles {
+  font-family: "lato", sans-serif;
+  color: #fafafa;
+  text-align: left;
+}
+
+.inline-block {
+  font-family: "lato", sans-serif;
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  line-height: 5px;
+}
+
+.fa-ul li {
+  font-family: "lato", sans-serif;
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: smaller;
+}
 footer {
   background-color: #2f2f33;
   color: #fafafa;
   min-height: 120px;
   margin: 0;
 }
-.cv-pdf i {
-  font-size: 18px;
-  color: #fafafa;
-  text-align: center;
-  padding-left: 5px;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
 
 .social-links {
   padding-bottom: 15px;
 }
+
 .social-links li a i {
   width: 32px;
   height: 32px;
