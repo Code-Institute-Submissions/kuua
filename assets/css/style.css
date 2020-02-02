@@ -31,6 +31,11 @@ body {
 .footer_titles {
   color: #fafafa;
   text-align: left;
+  text-transform: uppercase;
+}
+
+.footer_titles:hover {
+  color: #88898b;
 }
 
 .inline-block {
@@ -48,8 +53,8 @@ body {
   text-align: left;
   padding: 0;
   list-style: none;
-  font-size: 0.7rem;
-  left: -2em;
+  font-size: 1rem;
+  left: -1em;
 }
 
 footer {
@@ -95,8 +100,18 @@ footer {
   position: relative;
   list-style-type: none;
   text-align: left;
-  padding: 20px;
+  padding-bottom: 15px;
   margin: 0;
   list-style: none;
-  font-size: 0.7rem;
+  font-size: 1rem;
+}
+
+.col-sm-12 {
+  text-align: center;
+  color: #88898b;
+}
+.col-sm p {
+  padding-left: 15px;
+  font-family: "roboto", sans-serif;
+  font-weight: 100;
 }
