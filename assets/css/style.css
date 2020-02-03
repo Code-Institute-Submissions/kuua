@@ -1,6 +1,7 @@
 body {
   font-family: "lato", sans-serif;
 }
+
 /* ---------------logo */
 .center {
   display: inline-block;
@@ -14,6 +15,19 @@ body {
   text-align: center;
   font-size: 1rem;
   padding-top: 10%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("/assets/images/blondie_desk_opt.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .display-4 {
@@ -112,6 +126,6 @@ footer {
 }
 .col-sm p {
   padding-left: 15px;
-  font-family: "roboto", sans-serif;
-  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
 }
