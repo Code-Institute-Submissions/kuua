@@ -18,7 +18,7 @@ body {
 }
 .parallax {
  
-  background-image: url("/assets/images/blondie_desk_opt.jpg");
+  background-image: url("../images/blondie_desk_opt.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -44,7 +44,7 @@ body {
 
 .parallax2 {
  
-  background-image: url("/assets/images/faces_yellow_opt.jpg");
+  background-image: url("../images/faces_yellow_opt.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
