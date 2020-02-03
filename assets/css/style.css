@@ -31,6 +31,17 @@ body {
     background-attachment: scroll;
   }
 }
+
+
+.container-middle {
+  padding-top: 10px;
+ 
+}
+.container-middle p {
+  font-size: 1.2rem;
+ 
+}
+
 .parallax2 {
  
   background-image: url("/assets/images/faces_yellow_opt.jpg");
@@ -39,6 +50,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Disable parallax scrolling for all tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
 }
 
 .display-4 {
