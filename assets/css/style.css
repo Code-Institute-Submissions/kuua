@@ -17,13 +17,24 @@ body {
   padding-top: 10%;
 }
 .parallax {
-  /* The image used */
+ 
   background-image: url("/assets/images/blondie_desk_opt.jpg");
-
-  /* Set a specific height */
   height: 500px;
-
-  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Disable parallax scrolling for all tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+ 
+  background-image: url("/assets/images/faces_yellow_opt.jpg");
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
