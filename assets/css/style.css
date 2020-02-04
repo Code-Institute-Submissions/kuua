@@ -17,7 +17,6 @@ body {
   padding-top: 10%;
 }
 .parallax {
- 
   background-image: url("../images/blondie_desk_opt.jpg");
   height: 500px;
   background-attachment: fixed;
@@ -32,18 +31,14 @@ body {
   }
 }
 
-
 .container-middle {
   padding-top: 10px;
- 
 }
 .container-middle p {
   font-size: 1.2rem;
- 
 }
 
 .parallax2 {
- 
   background-image: url("../images/faces_yellow_opt.jpg");
   height: 500px;
   background-attachment: fixed;
@@ -106,9 +101,7 @@ footer {
   min-height: 120px;
   margin: 0;
 }
-.btn-primary {
-  padding-bottom: 10px;
-}
+
 
 .social-links {
   padding-bottom: 15px;
