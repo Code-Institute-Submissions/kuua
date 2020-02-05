@@ -27,11 +27,7 @@ body {
   background-size: cover;
 }
 /* Disable parallax scrolling for tablets and phones */
-@media only screen and (max-width: 600px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
+
 
 .container-middle {
   padding-top: 10px;
@@ -50,11 +46,7 @@ body {
 }
 
 /* Disable parallax scrolling tablets and phones */
-@media only screen and (max-width: 600px) {
-  .parallax2 {
-    background-attachment: scroll;
-  }
-}
+
 
 .display-4 {
   color: #2f2f33;
