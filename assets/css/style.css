@@ -69,7 +69,7 @@ body {
 
 /* Disable parallax scrolling tablets and phones */
 @media only screen and (max-width: 600px) {
-  .parallax2 {
+  .parallax3 {
     background-attachment: scroll;
   }
 }
