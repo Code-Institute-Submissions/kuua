@@ -58,6 +58,21 @@ body {
     background-attachment: scroll;
   }
 }
+.parallax3 {
+  background-image: url("../images/totem_opt.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Disable parallax scrolling tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
 
 .display-4 {
   color: #2f2f33;
@@ -204,6 +219,9 @@ input[type="submit"]:hover {
 }
 
 /* Clear floats after image containers */
+.gallery-container {
+  padding: 10px;
+}
 .row::after {
   content: "";
   clear: both;
@@ -215,6 +233,8 @@ input[type="submit"]:hover {
 /* Media query for gallery */
 @media screen and (max-width: 600) {
   .column {
+    float: left;
     width: 100%;
+    padding: 5px;
   }
 }
