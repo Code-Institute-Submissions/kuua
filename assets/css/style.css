@@ -21,7 +21,6 @@ body {
   padding-top: 10%;
 }
 
-
 .parallax {
   background-image: url("../images/blondie_desk_opt.jpg");
   height: 500px;
@@ -112,7 +111,6 @@ footer {
   margin: 0;
 }
 
-
 .social-links {
   padding-bottom: 15px;
 }
@@ -163,21 +161,23 @@ footer {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type="text"],
+select,
+textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
+/* Submit button with background color  */
+input[type="submit"] {
   background-color: #2f2f33;
-  color:#88898b;
+  color: #88898b;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -185,14 +185,36 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #2f2f33;
 }
 
 /* Add a background color and some padding around the form */
 .container-form {
-  
   background-color: #f1f1f1;
   padding: 50px;
   width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.gallery-text {
+  color: #fafafa;
+}
+/* Media query for gallery */
+@media screen and (max-width: 600) {
+  .column {
+    width: 100%;
+  }
 }
