@@ -85,6 +85,21 @@ body {
   font-weight: bolder;
 }
 
+.parallax4 {
+  background-image: url("../images/bedroom_abstract.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Disable parallax scrolling tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax4 {
+    background-attachment: scroll;
+  }
+}
 /* -------------------------Footer */
 .footer_titles {
   color: #fafafa;
@@ -175,7 +190,7 @@ footer {
   font-weight: lighter;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+/* ---------------------------Style inputs with type="text" */
 input[type="text"],
 select,
 textarea {
