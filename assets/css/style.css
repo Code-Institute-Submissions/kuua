@@ -236,31 +236,28 @@ input[type="submit"]:hover {
   }
 }
 
-/* Disable parallax scrolling tablets and phones */
-@media only screen and (max-width: 600px) {
-  .parallax2 {
-    background-attachment: scroll;
-  }
-}
-
-/* Disable parallax scrolling tablets and phones */
-@media only screen and (max-width: 600px) {
-  .parallax3 {
-    background-attachment: scroll;
-  }
-}
-
-/* Disable parallax scrolling tablets and phones */
-@media only screen and (max-width: 600px) {
-  .parallax4 {
-    background-attachment: scroll;
-  }
-}
-
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
+}
+
+.container-image {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container-image .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
