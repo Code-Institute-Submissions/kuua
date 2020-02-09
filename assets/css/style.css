@@ -24,7 +24,6 @@ body {
 }
 
 .parallax {
-  background-image: url("../images/blondie-desk-opt.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -32,6 +31,9 @@ body {
   background-size: cover;
 }
 
+#parallax1 {
+  background-image: url("../images/blondie-desk-opt.jpg");
+}
 
 .container-middle {
   padding-top: 10px;
@@ -40,25 +42,13 @@ body {
   font-size: 1.2rem;
 }
 
-.parallax2 {
+#parallax2 {
   background-image: url("../images/faces-yellow-opt.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-
-.parallax3 {
+#parallax3 {
   background-image: url("../images/totem-opt.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 
 .display-4 {
   color: #2f2f33;
@@ -69,15 +59,9 @@ body {
   font-weight: bolder;
 }
 
-.parallax4 {
+#parallax4 {
   background-image: url("../images/bedroom-abstract.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 
 /* Footer */
 .footer_titles {
@@ -97,13 +81,12 @@ body {
 .contact-separator {
   background-color: #2f2f33;
   color: #fafafa;
- height: 45px;
+  height: 45px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-left: 20px;
   padding-top: 10px;
-  
 }
 .inline-block {
   color: #bdbdbd;
@@ -221,21 +204,18 @@ input[type="submit"]:hover {
 .gallery-separator {
   background-color: #2f2f33;
   color: #fafafa;
- height: 45px;
+  height: 45px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-left: 20px;
   padding-top: 10px;
-  
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  
- 
 }
 
 /* Create four equal columns that sits next to each other */
