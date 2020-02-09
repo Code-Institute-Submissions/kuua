@@ -6,7 +6,7 @@ body {
   font-family: "lato", sans-serif;
 }
 
-/* ---------------logo */
+/* logo */
 .center {
   display: inline-block;
   width: 10%;
@@ -22,7 +22,7 @@ body {
 }
 
 .parallax {
-  background-image: url("../images/blondie_desk_opt.jpg");
+  background-image: url("../images/blondie-desk-opt.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .parallax2 {
-  background-image: url("../images/faces_yellow_opt.jpg");
+  background-image: url("../images/faces-yellow-opt.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -59,7 +59,7 @@ body {
   }
 }
 .parallax3 {
-  background-image: url("../images/totem_opt.jpg");
+  background-image: url("../images/totem-opt.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -86,7 +86,7 @@ body {
 }
 
 .parallax4 {
-  background-image: url("../images/bedroom_abstract.jpg");
+  background-image: url("../images/bedroom-abstract.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -100,7 +100,7 @@ body {
     background-attachment: scroll;
   }
 }
-/* -------------------------Footer */
+/* Footer */
 .footer_titles {
   color: #fafafa;
   text-align: left;
@@ -190,7 +190,7 @@ footer {
   font-weight: lighter;
 }
 
-/* ---------------------------Style inputs with type="text" */
+/* Style inputs with type="text" */
 input[type="text"],
 select,
 textarea {
@@ -226,7 +226,7 @@ input[type="submit"]:hover {
   width: 100%;
 }
 
-/* --------------------gallery  */
+/* gallery  */
 
 .gallery-text {
   color: #fafafa;
@@ -238,7 +238,7 @@ input[type="submit"]:hover {
   padding: 0 4px;
 }
 
-/* -------------------Create four equal columns that sits next to each other */
+/* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
@@ -251,7 +251,7 @@ input[type="submit"]:hover {
   width: 100%;
 }
 
-/* -------------Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
