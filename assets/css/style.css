@@ -173,14 +173,12 @@ textarea {
   resize: vertical;
 }
 .contact-separator i {
-
-  color:#fafafa;
+  color: #fafafa;
   padding-left: 10px;
 }
 
 .gallery-separator i {
-
-  color:#fafafa;
+  color: #fafafa;
   padding-left: 10px;
 }
 
@@ -248,8 +246,6 @@ input[type="submit"]:hover {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-
-
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
