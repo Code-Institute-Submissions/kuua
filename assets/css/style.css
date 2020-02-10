@@ -172,6 +172,17 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+.contact-separator i {
+
+  color:#fafafa;
+  padding-left: 10px;
+}
+
+.gallery-separator i {
+
+  color:#fafafa;
+  padding-left: 10px;
+}
 
 /* Submit button with background color  */
 input[type="submit"] {
