@@ -8,12 +8,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
+  <!--  latest jQuery and fancybox files -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>KUUA</title>
 </head>
 
 <body>
-  <!-- -----------------------Logo -->
+  <!-- logo -->
   <img src="./assets/images/kuua-logo-circle.png" alt="logocopy" class="center" />
   <!------------------------Tagline -->
 
@@ -44,7 +50,9 @@
       </span>
     </div>
   </nav>
-  <!---------------------------------------------------------front-body -->
+
+
+  <!-- who we are -->
   <div id="who-are-we"></div>
   <div class="parallax" id="parallax1"></div>
   <div class="container container-middle">
@@ -66,318 +74,260 @@
 
   <!-- parallax2 -->
   <div class="container-fluid parallax" id="parallax2"></div>
+
   <!-- gallery -->
 
   <div id="gallery-site" class="gallery-separator">Gallery<i class="fas fa-paint-brush"></i></div>
+
+  <!-- fancybox gallery-->
+
   <div class="container">
     <div class="row">
       <div class="column">
 
         <div class="container-image">
-          <img src="./assets/images/painting28.jpg" alt="painting28" style="width:100%">
+          <a data-fancybox="gallery" href="./assets/images/painting1.jpg">
+            <img src="./assets/images/painting1.jpg"></a>
           <div class="content">
-            <p>Suprise - €450,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting28.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Ink wave</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting29.jpg" alt="painting29" style="width:100%">
+          <a data-fancybox="gallery" href="./assets/images/painting14.jpg">
+            <img src="./assets/images/painting14.jpg"></a>
           <div class="content">
-            <p>Hello - €450,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting29.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Face</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting30.jpg" alt="Skull" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting28.jpg">
+            <img src="./assets/images/painting28.jpg"></a>
           <div class="content">
-            <p>Skull - €650,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting30.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Oh No!</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting5.jpg" alt="Blond" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting13.jpg">
+            <img src="./assets/images/painting13.jpg"></a>
           <div class="content">
-            <p>Blond - €250,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting5.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Smoke</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting41.jpg" alt="painting41" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting10.jpg">
+            <img src="./assets/images/painting10.jpg"></a>
           <div class="content">
-            <p>Hands - €650,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting41.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Question</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting6.jpg" alt="painting6" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting11.jpg">
+            <img src="./assets/images/painting11.jpg"></a>
           <div class="content">
-            <p>Blondie - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting6.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Abstract 11</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting7.jpg" alt="painting7" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting12.jpg">
+            <img src="./assets/images/painting12.jpg"></a>
           <div class="content">
-            <p>Abstract 7 - €300,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting7.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Abstract 12</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting2.jpg">
+            <img src="./assets/images/painting2.jpg"></a>
+          <div class="content">
+            <p>Boy and Fish</p>
+          </div>
+        </div>
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting3.jpg">
+            <img src="./assets/images/painting3.jpg"></a>
+          <div class="content">
+            <p>Abstract 3</p>
+          </div>
+        </div>
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting4.jpg">
+            <img src="./assets/images/painting4.jpg"></a>
+          <div class="content">
+            <p>Abstract 4</p>
+          </div>
+        </div>
+
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting5.jpg">
+            <img src="./assets/images/painting5.jpg"></a>
+          <div class="content">
+            <p>Portrait 5</p>
+          </div>
+        </div>
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting6.jpg">
+            <img src="./assets/images/painting6.jpg"></a>
+          <div class="content">
+            <p>Portrait 6</p>
+          </div>
+        </div>
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting7.jpg">
+            <img src="./assets/images/painting7.jpg"></a>
+          <div class="content">
+            <p>Abstract 7</p>
+          </div>
+        </div>
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting8.jpg">
+            <img src="./assets/images/painting8.jpg"></a>
+          <div class="content">
+            <p>Abstract 8</p>
+          </div>
+        </div>
+
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting9.jpg">
+            <img src="./assets/images/painting9.jpg"></a>
+          <div class="content">
+            <p>Drinking</p>
           </div>
         </div>
       </div>
       <div class="column">
 
         <div class="container-image">
-          <img src="./assets/images/painting31.jpg" alt="painting31" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting16.jpg">
+            <img src="./assets/images/painting16.jpg"></a>
           <div class="content">
-            <p>Fly - €300,-</p>
-
-            <a class="btn btn-secondary" href="./assets/images/painting31.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
-          </div>
-        </div>
-
-        <div class="container-image">
-          <img src="./assets/images/painting33.jpg" alt="painting33" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Rain - €900,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting33.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
-          </div>
-        </div>
-        <div class="container-image">
-          <img src="./assets/images/painting10.jpg" alt="painting10" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Doubt - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting10.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
+            <p>Shades</p>
           </div>
         </div>
 
 
         <div class="container-image">
-          <img src="./assets/images/painting34.jpg" alt="painting34" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting18.jpg">
+            <img src="./assets/images/painting18.jpg"></a>
           <div class="content">
-            <p>Women - €700,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting34.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
+            <p>Abstract 18-</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting12.jpg" alt="painting12" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting19.jpg">
+            <img src="./assets/images/painting19.jpg"></a>
           <div class="content">
-            <p>Nr 12 - €300,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting12.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
+            <p>Sunset</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting13.jpg" alt="painting13" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting20.jpg">
+            <img src="./assets/images/painting20.jpg"></a>
           <div class="content">
-            <p>Smoke - €300,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting13.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
+            <p>Blondie</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting14.jpg" alt="paper" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting21.jpg">
+            <img src="./assets/images/painting21.jpg"></a>
           <div class="content">
-            <p>Face - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting14.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
-          </div>
-        </div>
-
-
-        <div class="container-image">
-          <img src="./assets/images/painting8.jpg" alt="painting14" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Nr 8 - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting8.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-
-          </div>
-        </div>
-      </div>
-      <div class="column">
-
-        <div class="container-image">
-          <img src="./assets/images/painting15.jpg" alt="painting15" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Nr 15 - €300,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting15.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Drops</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting16.jpg" alt="painting16" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting22.jpg">
+            <img src="./assets/images/painting22.jpg"></a>
           <div class="content">
-            <p>Shades - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting16.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-          </div>
-        </div>
-
-        <div class="container-image">
-          <img src="./assets/images/painting17.jpg" alt="painting17" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Shades - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting17.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-          </div>
-        </div>
-
-        <div class="container-image">
-          <img src="./assets/images/painting18.jpg" alt="painting18" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Ink 18 - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting18.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-          </div>
-        </div>
-
-        <div class="container-image">
-          <img src="./assets/images/painting1.jpg" alt="painting1" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Ink 1 - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting1.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-          </div>
-        </div>
-
-        <div class="container-image">
-          <img src="./assets/images/painting2.jpg" alt="painting2" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Ink 2 - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting2.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-          </div>
-        </div>
-
-        <div class="container-image">
-          <img src="./assets/images/painting27.jpg" alt="painting27" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Scarface - €900,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting27.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
-          </div>
-        </div>
-
-
-        <div class="container-image">
-          <img src="./assets/images/painting3.jpg" alt="painting3" style="width:100%">
-          </a>
-          <div class="content">
-            <p>Nr 3 - €300,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting3.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Smoking girl</p>
           </div>
         </div>
       </div>
 
 
-
       <div class="column">
 
         <div class="container-image">
-          <img src="./assets/images/painting20.jpg" alt="painting20" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting24.jpg">
+            <img src="./assets/images/painting24.jpg"></a>
           <div class="content">
-            <p>A Blond - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting20.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Glasses</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting21.jpg" alt="painting21" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting23.jpg">
+            <img src="./assets/images/painting23.jpg"></a>
           <div class="content">
-            <p>ink 21 - €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting21.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Abstract 23</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting22.jpg" alt="painting22" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting30.jpg">
+            <img src="./assets/images/painting30.jpg"></a>
           <div class="content">
-            <p>Smoking- €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting22.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Skull</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting23.jpg" alt="painting23" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting26.jpg">
+            <img src="./assets/images/painting26.jpg"></a>
           <div class="content">
-            <p>Shades 2- €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting23.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Dylan</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting24.jpg" alt="painting24" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting27.jpg">
+            <img src="./assets/images/painting27.jpg"></a>
           <div class="content">
-            <p>Ink 23- €100,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting24.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Scarface</p>
           </div>
         </div>
 
         <div class="container-image">
-          <img src="./assets/images/painting26.jpg" alt="painting26" style="width:100%">
-          </a>
+          <a data-fancybox="gallery" href="./assets/images/painting15.jpg">
+            <img src="./assets/images/painting15.jpg"></a>
           <div class="content">
-            <p>Dylan- €950,-</p>
-            <a class="btn btn-secondary" href="./assets/images/painting26.jpg" target="_blank" role="button">Open</a>
-            <a class="btn btn-primary" href="#contact-us" role="button">Ask</a>
+            <p>Target</p>
+          </div>
+        </div>
+
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting17.jpg">
+            <img src="./assets/images/painting17.jpg"></a>
+          <div class="content">
+            <p>Maze</p>
+          </div>
+        </div>
+
+
+        <div class="container-image">
+          <a data-fancybox="gallery" href="./assets/images/painting29.jpg">
+            <img src="./assets/images/painting29.jpg"></a>
+          <div class="content">
+            <p>Hello</p>
           </div>
         </div>
       </div>
@@ -401,11 +351,11 @@
 
         <label for="style">Preferred Style</label>
         <select id="style" name="style">
-          <option value="popart">Pop Art</option>
-          <option value="illustrations">Illustrations</option>
-          <option value="prints">Prints</option>
-          <option value="abstract">Abstract</option>
-          <option value="decorative">Decorative</option>
+          <option value="popart">I want to buy art</option>
+          <option value="illustrations">I want to make an appointment</option>
+          <option value="prints">I want to sell art</option>
+          <option value="abstract">I want art advice</option>
+          <option value="decorative">Other</option>
         </select>
 
         <label for="subject">Subject</label>
