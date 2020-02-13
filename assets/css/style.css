@@ -48,6 +48,14 @@ body {
   background-image: url("../images/totem-opt.jpg");
 }
 
+#parallax4 {
+  background-image: url("../images/bedroom-abstract.jpg");
+}
+
+#parallax5 {
+  background-image: url("../images/xoxo_opt.jpg");
+}
+
 .display-4 {
   color: #2f2f33;
 }
@@ -57,39 +65,31 @@ body {
   font-weight: bolder;
 }
 
-#parallax4 {
-  background-image: url("../images/bedroom-abstract.jpg");
-}
-
-#parallax5 {
-  background-image: url("../images/xoxo_opt.jpg");
-}
-
 .frame {
-position: relative;
-width: 60%;
+  position: relative;
+  width: 60%;
+  height: 500px;
   border: 3px solid #ccc;
   background: #eee;
   margin: auto;
   padding: 15px 25px;
 }
 
-.mapouter{
-  position:relative;
-  text-align:center;
-  height:500px;
-  width:600px;
+.mapouter {
+  position: relative;
+  text-align: center;
+  height: 450px;
+  width: 100%;
+  margin: auto;
 }
 
 .gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:500px;
-  width:600px;
-  
-
+  overflow: hidden;
+  background: none !important;
+  height: 450px;
+  width: 100%;
+  margin: auto;
 }
-  
 
 /* Footer */
 .footer_titles {
@@ -265,9 +265,6 @@ input[type="submit"]:hover {
   vertical-align: middle;
   width: 100%;
 }
-
-
-
 
 /* media queries */
 
