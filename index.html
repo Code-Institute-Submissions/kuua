@@ -74,7 +74,6 @@
   </div>
 
   <!-- section gallery -->
-
   <!-- parallax2 -->
   <div class="container-fluid parallax" id="parallax2"></div>
 
@@ -365,10 +364,8 @@
         <textarea id="subject" name="subject" placeholder="Your message" style="height:200px" re></textarea>
 
         <input type="submit" value="Submit">
-
       </form>
     </div>
-
   </div>
   <br>
 
@@ -382,9 +379,15 @@
   </div>
 
 
-  <div class="container">
-    <div class="frame">
-      <img src="./assets/images/kuua-map.jpg" alt="Location Map" class="location-map">
+
+  <div class=" frame">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe width="600px" height="500px" id="gmap_canvas"
+          src="https://maps.google.com/maps?q=prinsengracht%2021&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <a href="https://www.embedgooglemap.net"></a>
+      </div>
     </div>
   </div><br>
 
