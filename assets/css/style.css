@@ -38,6 +38,7 @@ body {
 
 #parallax1 {
   background-image: url("../images/blondie-desk-opt.png");
+  background-size: cover;
 }
 
 #parallax2 {
