@@ -42,6 +42,7 @@ body {
 
 #parallax2 {
   background-image: url("../images/faces-yellow-opt.jpg");
+  max-width: 100%;
 }
 
 #parallax3 {
