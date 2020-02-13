@@ -37,15 +37,7 @@ body {
 }
 
 #parallax1 {
-  background: url("../images/blondie-desk-opt.png") no-repeat center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url("../images/blondie-desk-opt.png");
 }
 
 #parallax2 {
