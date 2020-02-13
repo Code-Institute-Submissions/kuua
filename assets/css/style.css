@@ -32,12 +32,12 @@ body {
   background-size: cover;
 }
 
-#parallax1 {
-  background-image: url("../images/blondie-desk-opt.jpg");
-}
-
 .container-middle {
   padding-top: 10px;
+}
+
+#parallax1 {
+  background-image: url("../images/blondie-desk-opt.png");
 }
 
 #parallax2 {
