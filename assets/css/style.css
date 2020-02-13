@@ -34,7 +34,6 @@ body {
 
 #parallax1 {
   background-image: url("../images/blondie-desk-opt.jpg");
-  max-width: 100vw;
 }
 
 .container-middle {
@@ -43,12 +42,10 @@ body {
 
 #parallax2 {
   background-image: url("../images/faces-yellow-opt.jpg");
-  max-width: 100vw;
 }
 
 #parallax3 {
   background-image: url("../images/totem-opt.jpg");
-  max-width: 100vw;
 }
 
 .display-4 {
@@ -62,12 +59,10 @@ body {
 
 #parallax4 {
   background-image: url("../images/bedroom-abstract.jpg");
-  max-width: 100vw;
 }
 
 #parallax5 {
   background-image: url("../images/xoxo_opt.jpg");
-  max-width: 100vw;
 }
 
 .frame {
