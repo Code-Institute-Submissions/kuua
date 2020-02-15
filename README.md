@@ -2,14 +2,17 @@
 
 # KUUA
 
-## Pop Art Gallery ##
+## Pop Art Gallery
 
 A gallery showcasing pieces of art for sale. The gallery collaborates with VUMc in Amsterdam, a hospital devoted to advance research in chronic diseases.
 KUUA donates 50% of their profits and aims to become a patron of the hospital.
 
 I've designed and built this website to display and promote Pop Art as a way of both building a business and doing good, hoping to get attention from the public and amplify what VUMc is doing.
 
-Today, the work exhibited is from one painter, but it is the aim of KUUA to become a go-to online gallery for aspiring artists to collaborate.
+Today, the work exhibited is from one painter (me), but it is the aim of KUUA to become a go-to online gallery for aspiring artists to collaborate.
+
+KUUA is the name of a .com owned by me. 
+The logo has been created by me
 
 ## UX
 
@@ -30,7 +33,11 @@ The Contact Us section is a form with Required fields and drop down menu to sele
 
 For users unfamiliar with Amsterdam, an embedded map shows how to get to the gallery.
 
-## User Stories
+There are several hover effects in the footer, over the titles and in social media icons.
+
+# User Stories
+
+## As User
 
 - As user, I want to see good images of paintings
 - As user, I want to be able to look at the picture in detail
@@ -38,11 +45,15 @@ For users unfamiliar with Amsterdam, an embedded map shows how to get to the gal
 - As user, I want to be able to contact the gallery to ask for a particular style
 - As user, I want to be able to call the gallery, so contact details are important
 - As user, I want to be see how a picture would look in an interior
+
+## As a gallery owner
+
 - As a gallery owner I want to show a selection of the pieces that we have
 - As a gallery owner I want to be able to be contacted through the page
-- As a gallery owner I want to show the prices and the piece name.
+- As a gallery owner I want to promote my work
+- As a gallery owner i want to connect with art enthusiasts
 
-## Sections
+# Sections
 
 - The logo
 - The navigation bar with links to the different sections
@@ -53,32 +64,30 @@ For users unfamiliar with Amsterdam, an embedded map shows how to get to the gal
 - An embedded GoogleMaps with the location to facilitate visitors to find us.
 - The Footer, with contact information and social media links
 
-### Existing Features
+## Existing Features
 
 - The navigation bar collapses with a burger button
 - The gallery, with clickable buttons displaying available pieces. This has been achieved using Fancybox.
 - Contact Us, to email the gallery with questions and queries
 - The Footer, with contact information and social media links
 
-## Using the Contact Us form ##
+## Using the Contact Us form
+
 Go to "Contact Us"
+
 - The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form befre sending.
 - A preselected set of reasons to contact shows in a drop down menu.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
+## Features Left to Implement
 
 . In a future release I would like to add a filter of paintinGs per style.
 . I would also like to add a shopping cart and a e-commerce marketplace for customers to select, check out, pay and purchase art pieces.
 
-## Technologies Used
+# Technologies Used
 
-### The project was build with ###
+## The project was build with:
 
-. HTML to code the contant
+. HTML to code the content
 . CSS to style
 . Bootstrap to add features
 . Fontawesome preset icons
@@ -109,27 +118,31 @@ In order to do this i followed the below steps:
 git clone <URL from github link copied earlier>
 (guidance courtesy of http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
 
-To deploy the website first all the files must be saved in the created repository on Github. On settings at the top and scrolling down to the heading GitHub Pages and under heading, click master branch as source which then allows hosting of the website on GitHub Pages.
-
 ## Wireframes
 
 Wireframes created in Balsamiq can be found here:
+
+<img src="./assets/assets-readme/kuua-mockup.png"/>
+
+## Link to the image can be found here:
+
 https://github.com/FabiBrachetta/kuua-ms1/blob/master/assets/assets-readme/kuua-mockup.png
 
+# Credits
 
-## Credits
-
-### Content
+## Content
 
 - The content of the website is created by me in its entirety.
 - The gallery was created using Fancybox from fancyapps https://fancyapps.com/fancybox/3/
 - Embedded map using Google Maps courtesy of https://google.com/
+- I used modules of Bootstrap and styled to my taste
 
-### Media
+## Media
 
-- The photos used are also created by me.
+- The photos used are all created by me. I own all rights to use and publish the images.
+- I authorise free use of any image for non commercial use (credits would be appreciated)
 
-### Acknowledgements
+## Acknowledgements
 
 - I want to thank in particular my mentor @guidocecilio_mentor, also @Eventyret_mentor for first peer-review, also @Guillermo for some nice pointers and the Slack Community in general for the quick and solid support.
-
+- I have been not in contact with VUMc nor have I been endorsed. However I have the plan to collaborate with their great work.
