@@ -20,15 +20,15 @@ The website shows when opening the logo and a painting displayed in an interior,
 
 _The feature of smooth scrolling does not work in all browsers and the possibility of fixing this with a Java Script is out of scope of this MS1_
 
-The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a program that not only sells art but also helps.
+The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a program that not only sells art but also helps. A link to VU Medical Centre is in this section.
 
-Then, the gallery section appears with a selection of paintings and drawings, with name and prices with two buttons to either open the full size image in a new tab or to express interest on a message to the gallery.
-
-For users unfamiliar with Amsterdam, an embedded map shows how to get to the gallery.
+Then, the gallery section appears with a selection of paintings and drawings. This gallery displays in a modal with easy navgation in carrousel or in group.
 
 Sections are separated by images of paintings displayed on walls with Parallax effect, giving a smooth navigation feeling
 
 The Contact Us section is a form with Required fields and drop down menu to select style of painting desired.
+
+For users unfamiliar with Amsterdam, an embedded map shows how to get to the gallery.
 
 ## User Stories
 
@@ -95,13 +95,26 @@ I am currently investigating this issue and plan to fix it ASAP
 
 ## Deployment
 
-My website is deployed on Github Pages - https://fabibrachetta.github.io/kuua-ms1/
+I used Visual Studio Code to write all the code. My website is deployed on Github Pages - https://fabibrachetta.github.io/kuua-ms1/
+
+In order to do this i followed the below steps:
+
+- Create a directory on the local file system.
+- Create a repo on Github.
+- Select Clone "Clone or download" on Github, copy the link
+- In VSCode , select File -> Add Folder to Workspace -> Select the newly created directory
+- Select Terminal Window
+- In the window, type: git config --global user.name <github userID>
+
+git clone <URL from github link copied earlier>
+(guidance courtesy of http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
 
 To deploy the website first all the files must be saved in the created repository on Github. On settings at the top and scrolling down to the heading GitHub Pages and under heading, click master branch as source which then allows hosting of the website on GitHub Pages.
 
 ## Wireframes
 
-Wireframes created in Balsamiq can be found here https://github.com/FabiBrachetta/kuua-ms1/blob/master/assets/assets-readme/kuua-mockup-1.png
+Wireframes created in Balsamiq can be found here:
+https://github.com/FabiBrachetta/kuua-ms1/blob/master/assets/assets-readme/kuua-mockup.png
 
 
 ## Credits
