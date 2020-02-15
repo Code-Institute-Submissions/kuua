@@ -37,7 +37,7 @@ body {
 }
 
 #parallax1 {
-  background-image: url("../images/blondie-desk-opt.png");
+  background-image: url("../images/blondie-desk-opt.jpg");
 }
 
 #parallax2 {
@@ -272,12 +272,6 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 600px) {
   .parallax {
     background-attachment: scroll;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #parallax1 {
-    width: 100%;
   }
 }
 

@@ -1,107 +1,122 @@
 <img src="./assets/images/kuua-logo-circle.png" alt="logocopy" class="center" />
 
 # KUUA
-Pop Art Gallery
+
+## Pop Art Gallery ##
 
 A gallery showcasing pieces of art for sale. The gallery collaborates with VUMc in Amsterdam, a hospital devoted to advance research in chronic diseases.
 KUUA donates 50% of their profits and aims to become a patron of the hospital.
- 
+
+I've designed and built this website to display and promote Pop Art as a way of both building a business and doing good, hoping to get attention from the public and amplify what VUMc is doing.
+
+Today, the work exhibited is from one painter, but it is the aim of KUUA to become a go-to online gallery for aspiring artists to collaborate.
+
 ## UX
- 
+
+This website has been created as a static, one page front end website with an overview of different art pieces.
+The colors pallete is in the grey spectrum with monotone approach for sobriety.
+
 The website shows when opening the logo and a painting displayed in an interior, giving a hint of what the visitor can expect to see and potentially acquire on the site.
 
-*The feature of smooth scrolling does not work in all browsers and the possibility of fixing this with a Java Script is out of scope of this MS1*
+_The feature of smooth scrolling does not work in all browsers and the possibility of fixing this with a Java Script is out of scope of this MS1_
 
 The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a program that not only sells art but also helps.
 
 Then, the gallery section appears with a selection of paintings and drawings, with name and prices with two buttons to either open the full size image in a new tab or to express interest on a message to the gallery.
+
+For users unfamiliar with Amsterdam, an embedded map shows how to get to the gallery.
 
 Sections are separated by images of paintings displayed on walls with Parallax effect, giving a smooth navigation feeling
 
 The Contact Us section is a form with Required fields and drop down menu to select style of painting desired.
 
 ## User Stories
-* As user, I want to see good images of paintings
-* As user, I want to be able to look at the picture in detail
-* As user, I want to know the price of the piece in advance
-* As user, I want to be able to contact the gallery to ask for a particular style
-* As user, I want to be able to call the gallery, so contact details are important
-* As user, I want to be see how a picture would look in an interior
-* As a gallery owner I want to show a selection of the pieces that we have
-* As a gallery owner I want to be able to be contacted through the page
-* As a gallery owner I want to show the prices and the piece name.
 
-## Features
+- As user, I want to see good images of paintings
+- As user, I want to be able to look at the picture in detail
+- As user, I want to know the price of the piece in advance
+- As user, I want to be able to contact the gallery to ask for a particular style
+- As user, I want to be able to call the gallery, so contact details are important
+- As user, I want to be see how a picture would look in an interior
+- As a gallery owner I want to show a selection of the pieces that we have
+- As a gallery owner I want to be able to be contacted through the page
+- As a gallery owner I want to show the prices and the piece name.
 
-1- The logo
-2- The navigation bar with links to the different sections
-3- About Us with a short introduction
-4- The gallery, with clickable buttons displaying available pieces
-5- Contact Us, to email the gallery with questions and queries
-5- The Footer, with contact information and social media links
+## Sections
 
- 
+- The logo
+- The navigation bar with links to the different sections
+- About Us with a short introduction
+- Different images of pieces displayed with parallax effect to give a dinamic an tridimentional look.
+- The gallery, with clickable buttons displaying available pieces
+- Contact Us, to email the gallery with questions and queries
+- An embedded GoogleMaps with the location to facilitate visitors to find us.
+- The Footer, with contact information and social media links
+
 ### Existing Features
-1- The logo
-2- The navigation bar with links to the different sections
-3- About Us with a short introduction
-4- The gallery, with clickable buttons displaying available pieces
-5- Contact Us, to email the gallery with questions and queries
-5- The Footer, with contact information and social media links
+
+- The navigation bar collapses with a burger button
+- The gallery, with clickable buttons displaying available pieces. This has been achieved using Fancybox.
+- Contact Us, to email the gallery with questions and queries
+- The Footer, with contact information and social media links
+
+## Using the Contact Us form ##
+Go to "Contact Us"
+- The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form befre sending.
+- A preselected set of reasons to contact shows in a drop down menu.
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- A Gallery locator/Google map
-- A filter of paintins per style
+
+. In a future release I would like to add a filter of paintinGs per style.
+. I would also like to add a shopping cart and a e-commerce marketplace for customers to select, check out, pay and purchase art pieces.
 
 ## Technologies Used
 
-The project uses HTML and CSS as laguages with bootstrap 
+### The project was build with ###
 
+. HTML to code the contant
+. CSS to style
+. Bootstrap to add features
+. Fontawesome preset icons
+. JQuery for the gallery
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+No testing has been automated. All performed manually.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+There is a display issue identified: on IphoneX Max the website works well portrait but when turned to landscape position the Parallax background images blow out of proportion.
+I am currently investigating this issue and plan to fix it ASAP
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+My website is deployed on Github Pages - https://fabibrachetta.github.io/kuua-ms1/
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To deploy the website first all the files must be saved in the created repository on Github. On settings at the top and scrolling down to the heading GitHub Pages and under heading, click master branch as source which then allows hosting of the website on GitHub Pages.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+## Wireframes
+
+Wireframes created in Balsamiq can be found here https://github.com/FabiBrachetta/kuua-ms1/blob/master/assets/assets-readme/kuua-mockup-1.png
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The content of the website is created by me in its entirety.
+- The gallery was created using Fancybox from fancyapps https://fancyapps.com/fancybox/3/
+- Embedded map using Google Maps courtesy of https://google.com/
 
 ### Media
-- The photos used in this site were obtained from ...
+
+- The photos used are also created by me.
 
 ### Acknowledgements
 
 - I want to thank in particular my mentor @guidocecilio_mentor, also @Eventyret_mentor for first peer-review, also @Guillermo for some nice pointers and the Slack Community in general for the quick and solid support.
+
