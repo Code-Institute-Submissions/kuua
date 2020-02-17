@@ -122,11 +122,8 @@ git clone <URL from github link copied earlier>
 
 Wireframes created in Balsamiq can be found here:
 
-<img src="./assets/assets-readme/kuua-mockup.png"/>
+<img src="./wireframes/kuua-mockup.png"/>
 
-## Link to the image can be found here:
-
-https://github.com/FabiBrachetta/kuua-ms1/blob/master/assets/assets-readme/kuua-mockup.png
 
 # Credits
 
