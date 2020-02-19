@@ -80,22 +80,40 @@ Go to "Contact Us"
 
 ## Features Left to Implement
 
-. In a future release I would like to add a filter of paintinGs per style.
-. I would also like to add a shopping cart and a e-commerce marketplace for customers to select, check out, pay and purchase art pieces.
+- In a future release I would like to add a filter of paintinGs per style.
+- I would also like to add a shopping cart and a e-commerce marketplace for customers to select, check out, pay and purchase art pieces.
 
 # Technologies Used
 
 ## The project was build with:
 
-. HTML to code the content
-. CSS to style
-. Bootstrap to add features
-. Fontawesome preset icons
-. JQuery for the gallery
+* HTML, to structure the website
+* CSS, to style the website
+* [jQuery](https://jquery.com/), for the modal in the gallery
+* [Visual Studio Code](https://code.visualstudio.com/), for the development environment
+* [Github](https://github.com/), for the repository of files and version control
+* [Bootstrap](https://getbootstrap.com/), to utilize responsive elements
+* [Font Awesome](https://fontawesome.com/), to utilize icons
+* [Google Fonts](https://fonts.google.com/), to utilize different fonts
 
 ## Testing
 
 No testing has been automated. All performed manually.
+We have asked 10 people to act as potential users of the website.
+
+## Manual testing
+
+- All the tests below where done manually.
+- The tests where done in Chrome, Safari, Firefox and IE
+
+### Using the website
+
+- Open the website and to see a hint of how a large print would look on a wall
+- On the Navigation Bar, the user sees the options where to navigate to. The burger button does now collapse back up again in this version. An improved version with JS will be done in next release.
+- “Who" explains who KUUA is and what it stands for. It has a link to the institution that KUUA helps with 50% of the profits. by clicking the link a new tab will open with the hospital website.
+- “Gallery” the user will go to a collection of paintings and prints that are available in the gallery. The gallery shows in a pop up window the selected image and it changes to different paintings by clicking the arrows or swiping right or left, making it easy to navigate.
+- "Contact US" scrolls down to a form to select different reasons to contact in a drop down menu. The form offers an intuitive and easy way to get in contact with the gallery.
+- "Location" has a Google Map, which worked well in the devices tested.
 
 In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
 
@@ -120,10 +138,9 @@ git clone <URL from github link copied earlier>
 
 ## Wireframes
 
-Wireframes created in Balsamiq can be found here:
+Wireframes created in Balsamiq .:
 
 <img src="./wireframes/kuua-mockup.png"/>
-
 
 # Credits
 
@@ -141,5 +158,10 @@ Wireframes created in Balsamiq can be found here:
 
 ## Acknowledgements
 
-- I want to thank in particular my mentor @guidocecilio_mentor, also @Eventyret_mentor for first peer-review, also @Guillermo for some nice pointers and the Slack Community in general for the quick and solid support.
+- I want to thank in particular my mentor @guidocecilio_mentor for his support
+- @Eventyret_mentor https://www.github.com/Eventyret for the peer-review.
+- @Guillermo for some nice pointers 
+- Slack Community in general for the quick and solid support.
+
+## disclaimer
 - I have been not in contact with VUMc nor have I been endorsed. However I have the plan to collaborate with their great work.
