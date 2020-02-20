@@ -16,7 +16,7 @@ The logo has been created by me
 
 ## UX
 
-This website has been created as a static, one page front end website with an overview of different art pieces.
+This website has been created as a static, one page front end website with scrolling behaviour for  overview of different art pieces and what the gallery has to offer.
 The colors pallete is in the grey spectrum with monotone approach for sobriety.
 
 The website shows when opening the logo and a painting displayed in an interior, giving a hint of what the visitor can expect to see and potentially acquire on the site.
@@ -98,11 +98,8 @@ Go to "Contact Us"
 
 ## Testing
 
-No testing has been automated. All performed manually.
-We have asked 10 people to act as potential users of the website.
-
-## Manual testing
-
+- No testing has been automated. All performed manually.
+- We have asked 10 people to act as potential users of the website.
 - All the tests below where done manually.
 - The tests where done in Chrome, Safari, Firefox and IE
 
@@ -115,6 +112,8 @@ We have asked 10 people to act as potential users of the website.
 - "Contact US" scrolls down to a form to select different reasons to contact in a drop down menu. The form offers an intuitive and easy way to get in contact with the gallery.
 - "Location" has a Google Map, which worked well in the devices tested.
 
+The website provides a complete overview of what the gallery has to offer. 
+
 In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
 
 There is a display issue identified: on IphoneX Max the website works well portrait but when turned to landscape position the Parallax background images blow out of proportion.
@@ -122,7 +121,7 @@ I am currently investigating this issue and plan to fix it ASAP
 
 ## Deployment
 
-I used Visual Studio Code to write all the code. My website is deployed on Github Pages - https://fabibrachetta.github.io/kuua-ms1/
+I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/kuua-ms1/)
 
 In order to do this i followed the below steps:
 
@@ -134,21 +133,21 @@ In order to do this i followed the below steps:
 - In the window, type: git config --global user.name <github userID>
 
 git clone <URL from github link copied earlier>
-(guidance courtesy of http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
+(guidance courtesy of [Not Your Dad's IT](http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
 
 ## Wireframes
 
-Wireframes created in Balsamiq .:
+Wireframes created in Balsamiq:
 
-<img src="./wireframes/kuua-mockup.png"/>
+You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blob/master/wireframes/kuua-mockup.png)
 
 # Credits
 
 ## Content
 
 - The content of the website is created by me in its entirety.
-- The gallery was created using Fancybox from fancyapps https://fancyapps.com/fancybox/3/
-- Embedded map using Google Maps courtesy of https://google.com/
+- The gallery was created using Fancybox from [Fancyapps](https://fancyapps.com/fancybox/3/) 
+- Embedded map using [Google Maps](https://www.google.com/maps/preview)
 - I used modules of Bootstrap and styled to my taste
 
 ## Media
@@ -158,10 +157,10 @@ Wireframes created in Balsamiq .:
 
 ## Acknowledgements
 
-- I want to thank in particular my mentor @guidocecilio_mentor for his support
-- @Eventyret_mentor https://www.github.com/Eventyret for the peer-review.
-- @Guillermo for some nice pointers 
+- I want to thank in particular my mentor - [@guidocecilio_mentor](https://github.com/guidocecilio) for his guidance
+- [@Eventyret_mentor](https://www.github.com/Eventyret) for the peer-review adn advice
+- [@Guillermo](https://github.com/GBrachetta) for some nice pointers 
 - Slack Community in general for the quick and solid support.
 
-## disclaimer
+## Disclaimer
 - I have been not in contact with VUMc nor have I been endorsed. However I have the plan to collaborate with their great work.
