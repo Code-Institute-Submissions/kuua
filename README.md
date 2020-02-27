@@ -156,7 +156,7 @@ You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blo
 
 ## Acknowledgements
 
-- I want to thank in particular my mentor - [@guidocecilio_mentor](https://github.com/guidocecilio) for his guidance
+- I want to thank in particular my mentor [@guidocecilio_mentor](https://github.com/guidocecilio) for his guidance
 - [@Eventyret_mentor](https://www.github.com/Eventyret) for the peer-review adn advice
 - [@Guillermo](https://github.com/GBrachetta) for some nice pointers 
 - Slack Community in general for the quick and solid support.
