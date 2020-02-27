@@ -4,10 +4,10 @@
 
 ## Pop Art Gallery
 
-A gallery showcasing pieces of art for sale. The gallery collaborates with VUMc in Amsterdam, a hospital devoted to advance research in chronic diseases.
-KUUA donates 50% of their profits and aims to become a patron of the hospital.
-
 I've designed and built this website to display and promote Pop Art as a way of both building a business and doing good, hoping to get attention from the public and amplify what VUMc is doing.
+
+The gallery promotes art and collaborates with VUMc in Amsterdam, a hospital devoted to advance research in chronic diseases.
+KUUA donates 50% of their profits and aims to become a patron of the hospital.
 
 Today, the work exhibited is from one painter (me), but it is the aim of KUUA to become a go-to online gallery for aspiring artists to collaborate.
 
@@ -16,20 +16,20 @@ The logo has been created by me
 
 ## UX
 
-This website has been created as a static, one page front end website with scrolling behaviour for  overview of different art pieces and what the gallery has to offer.
+This website has been created as a one page front end website with scrolling behaviour for overview of different art pieces and what the gallery has to offer.
 The colors pallete is in the grey spectrum with monotone approach for sobriety.
 
-The website shows when opening the logo and a painting displayed in an interior, giving a hint of what the visitor can expect to see and potentially acquire on the site.
+The website shows at first the logo and a painting displayed hanging on a wall in an interior, giving a hint of what the visitor can expect to see and potentially acquire on the site.
 
 _The feature of smooth scrolling does not work in all browsers and the possibility of fixing this with a Java Script is out of scope of this MS1_
 
-The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a program that not only sells art but also helps. A link to VU Medical Centre is in this section.
+The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a site that not only sells art but also helps. A link to VU Medical Centre is in this section which opens in a separate tab.
 
-Then, the gallery section appears with a selection of paintings and drawings. This gallery displays in a modal with easy navgation in carrousel or in group.
+Then, the gallery section appears with a selection of paintings and drawings. This gallery displays in a modal with easy navigation in carrousel or in group.
 
-Sections are separated by images of paintings displayed on walls with Parallax effect, giving a smooth navigation feeling
+Sections are separated by images of paintings displayed on walls with Parallax effect, giving a smooth navigation feeling.
 
-The Contact Us section is a form with Required fields and drop down menu to select style of painting desired.
+The Contact Us section is a form with "required fields" and drop down menu to select style of painting desired.
 
 For users unfamiliar with Amsterdam, an embedded map shows how to get to the gallery.
 
@@ -41,7 +41,6 @@ There are several hover effects in the footer, over the titles and in social med
 
 - As user, I want to see good images of paintings
 - As user, I want to be able to look at the picture in detail
-- As user, I want to know the price of the piece in advance
 - As user, I want to be able to contact the gallery to ask for a particular style
 - As user, I want to be able to call the gallery, so contact details are important
 - As user, I want to be see how a picture would look in an interior
@@ -50,8 +49,8 @@ There are several hover effects in the footer, over the titles and in social med
 
 - As a gallery owner I want to show a selection of the pieces that we have
 - As a gallery owner I want to be able to be contacted through the page
-- As a gallery owner I want to promote my work
-- As a gallery owner i want to connect with art enthusiasts
+- As a gallery owner I want to promote the work
+- As a gallery owner I want to connect with art enthusiasts
 
 # Sections
 
@@ -66,21 +65,21 @@ There are several hover effects in the footer, over the titles and in social med
 
 ## Existing Features
 
-- The navigation bar collapses with a burger button
-- The gallery, with clickable buttons displaying available pieces. This has been achieved using Fancybox.
-- Contact Us, to email the gallery with questions and queries
-- The Footer, with contact information and social media links
+- The navigation bar collapses with a burger button on smaller screens.
+- The gallery displayed in a modal. This has been achieved using Fancybox.
+- Contact Us with drop down menu to email the gallery with questions and queries.
+- The Footer, with contact information and social media links.
 
 ## Using the Contact Us form
 
 Go to "Contact Us"
 
-- The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form befre sending.
+- The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form before sending.
 - A preselected set of reasons to contact shows in a drop down menu.
 
 ## Features Left to Implement
 
-- In a future release I would like to add a filter of paintinGs per style.
+- In a future release I would like to add a filter of paintings per style.
 - I would also like to add a shopping cart and a e-commerce marketplace for customers to select, check out, pay and purchase art pieces.
 
 # Technologies Used
