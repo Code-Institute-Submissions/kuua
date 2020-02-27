@@ -91,7 +91,7 @@ Go to "Contact Us"
 * CSS, to style the website
 * [jQuery](https://jquery.com/), for the modal in the gallery
 * [Visual Studio Code](https://code.visualstudio.com/), for the development environment
-* [Github](https://github.com/), for the repository of files and version control
+* [Github](https://github.com/), as the version control technology and GitHub Pages as the webserver technology to publish the website
 * [Bootstrap](https://getbootstrap.com/), to utilize responsive elements
 * [Font Awesome](https://fontawesome.com/), to utilize icons
 * [Google Fonts](https://fonts.google.com/), to utilize different fonts
