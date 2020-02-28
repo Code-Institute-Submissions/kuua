@@ -53,14 +53,14 @@ body {
 }
 
 #parallax5 {
-  background-image: url("../images/xoxo_opt.jpg");
+  background-image: url("../images/xoxo-opt.jpg");
 }
 
 .display-4 {
   color: #2f2f33;
 }
 
-.vumc_link {
+.vumc-link {
   color: #1f2c69;
   font-weight: bolder;
   font-size: 1.2rem;
@@ -93,13 +93,13 @@ body {
 }
 
 /* Footer */
-.footer_titles {
+.footer-titles {
   color: #fafafa;
   text-align: left;
   text-transform: uppercase;
 }
 
-.footer_titles:hover {
+.footer-titles:hover {
   color: #88898b;
 }
 
