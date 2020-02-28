@@ -120,19 +120,21 @@ I am currently investigating this issue and plan to fix it ASAP
 
 ## Deployment
 
-I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/kuua-ms1/)
+I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/kuua/)
 
-In order to do this i followed the below steps:
+In order to do this is followed the below steps:
 
 - Create a directory on the local file system.
-- Create a repo on Github.
+- In GitHub “Repositories” I’ve clicked on the green “new” button and created a repository with the name of KUUA.
 - Select Clone "Clone or download" on Github, copy the link
 - In VSCode , select File -> Add Folder to Workspace -> Select the newly created directory
 - Select Terminal Window
 - In the window, type: git config --global user.name <github userID>
+- In VSCode, I’ve created the site, committed and pushed onto repository.
+- On GitHub, I’ve clicked on KUUA repository.
+- Under KUUA repository name, click “Settings”.
+- Under "GitHub Pages", use the Source drop-down menu and select Master Branch for live url.
 
-git clone <URL from github link copied earlier>
-(guidance courtesy of [Not Your Dad's IT](http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
 
 ## Wireframes
 
