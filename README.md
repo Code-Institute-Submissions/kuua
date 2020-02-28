@@ -107,7 +107,7 @@ Go to "Contact Us"
 - Open the website and to see a hint of how a large print would look on a wall
 - On the Navigation Bar, the user sees the options where to navigate to. The burger button does now collapse back up again in this version. An improved version with JS will be done in next release.
 - “Who" explains who KUUA is and what it stands for. It has a link to the institution that KUUA helps with 50% of the profits. by clicking the link a new tab will open with the hospital website.
-- “Gallery” the user will go to a collection of paintings and prints that are available in the gallery. The gallery shows in a pop up window the selected image and it changes to different paintings by clicking the arrows or swiping right or left, making it easy to navigate.
+- “Gallery” the user will go to a collection of paintings and prints that are available in the gallery. The gallery shows in a pop up window the selected image and it changes to different paintings by clicking the arrows right or left, making it easy to navigate.
 - "Contact US" scrolls down to a form to select different reasons to contact in a drop down menu. The form offers an intuitive and easy way to get in contact with the gallery.
 - "Location" has a Google Map, which worked well in the devices tested.
 
@@ -117,6 +117,8 @@ In all screens tested the website looks exactly in the desired way and responded
 
 There is a display issue identified: on IphoneX Max the website works well portrait but when turned to landscape position the Parallax background images blow out of proportion.
 I am currently investigating this issue and plan to fix it ASAP
+
+There is an issue with the gallery when swiping images left or right. after second image next image doesnt show. We are planning to fix this in next release. 
 
 ## Deployment
 
